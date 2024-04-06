@@ -5123,49 +5123,49 @@ When elementId != null, produce <elementId>=<generated-to-string> where
 generated-to-string has redundant ""elementId: <element-id>, "" removed.
 
 Change-Id: I7c0b5b8275d8f35454f8b0d58730b8b0607230ca
-Signed-off-by: Ed Merks <ed.merks@gmail.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Ed Merks <ed.merks@gmail.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 PartServiceImpl.java,bundles/org.eclipse.e4.ui.workbench/src/org/eclipse/e4/ui/internal/workbench/PartServiceImpl.java,3bca94948b8fdbf68f184f98176cbfd53b249996,"Bug 495111 - Improve readability of PartServiceImpl#hidePart method
 
 Change-Id: Ic54054a3dafafad634070a2d6cb6adaa92ab2c39
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 ModelAssembler.java,bundles/org.eclipse.e4.ui.workbench/src/org/eclipse/e4/ui/internal/workbench/ModelAssembler.java,479402a0130ec2a9d820e9fe8f488a8a636d3315,"Bug 430080 - Improve readability of ModelAssembler 
 
 Change-Id: Icc1d187445b2e5e64e0db82a816c2e2947f737d6
-Signed-off-by: Lars Vogel <Lars.Vogel@gmail.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@gmail.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 PerspectiveSwitcher.java,bundles/org.eclipse.ui.workbench/Eclipse UI/org/eclipse/e4/ui/workbench/addons/perspectiveswitcher/PerspectiveSwitcher.java,6a7938584f1fdc3b2621e516af44cd859d39fc28,"Bug 478433 - Minor formatting fixes in PerspectiveSwitcher
 
 Also renames two internal variables for better readability 
 
 Change-Id: Idf8a2d9ed7fbd84699c2cfaea4a5bde197d68e06
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 CSSEngineTest.java,tests/org.eclipse.e4.ui.tests.css.core/src/org/eclipse/e4/ui/tests/css/core/CSSEngineTest.java,6ed2e1afe810a6add7251b0ca7fb1ca923c59520,"Bug 474687 - Improve platform.ui tests readability by using lambda
 expressions
 
 Update for the CSS tests
 
 Change-Id: I412974577c1d23b8874b492ea8fb07fb6dae7e1a
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 ParserTestUtil.java,tests/org.eclipse.e4.ui.tests.css.core/src/org/eclipse/e4/ui/tests/css/core/util/ParserTestUtil.java,6ed2e1afe810a6add7251b0ca7fb1ca923c59520,"Bug 474687 - Improve platform.ui tests readability by using lambda
 expressions
 
 Update for the CSS tests
 
 Change-Id: I412974577c1d23b8874b492ea8fb07fb6dae7e1a
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 CSSSWTTestCase.java,tests/org.eclipse.e4.ui.tests.css.swt/src/org/eclipse/e4/ui/tests/css/swt/CSSSWTTestCase.java,6ed2e1afe810a6add7251b0ca7fb1ca923c59520,"Bug 474687 - Improve platform.ui tests readability by using lambda
 expressions
 
 Update for the CSS tests
 
 Change-Id: I412974577c1d23b8874b492ea8fb07fb6dae7e1a
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 ThemeTest.java,tests/org.eclipse.e4.ui.tests.css.swt/src/org/eclipse/e4/ui/tests/css/swt/ThemeTest.java,6ed2e1afe810a6add7251b0ca7fb1ca923c59520,"Bug 474687 - Improve platform.ui tests readability by using lambda
 expressions
 
 Update for the CSS tests
 
 Change-Id: I412974577c1d23b8874b492ea8fb07fb6dae7e1a
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 AbstractUIPlugin.java,bundles/org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/plugin/AbstractUIPlugin.java,6f5262df218dd3d0e01f8908d28394fbcd1ecd97,"Bug 511580 - cleanup dialog settings init code
 
 No semantic changes, just making the code in
@@ -5174,19 +5174,19 @@ readable plus adding extra logging in case loading of settings should
 fail.
 
 Change-Id: I2dbd01f33b1aeb0a2954c643c46b405b7b19588b
-Signed-off-by: Andrey Loskutov <loskutov@gmx.de>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Andrey Loskutov <loskutov@gmx.de>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 ResourceHandler.java,bundles/org.eclipse.e4.ui.workbench/src/org/eclipse/e4/ui/internal/workbench/ResourceHandler.java,98482e46c83b119f6beba2048d78ce9309e4af20,"Minor - Improve readability of ResourceSet configuraiton in
 ResourceHandler
 
 Change-Id: I00f3c3f3cc7391b11c664b6553fa9badb26cb62b
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 RegistryCSSPropertyHandlerProvider.java,bundles/org.eclipse.e4.ui.css.core/src/org/eclipse/e4/ui/css/core/impl/engine/RegistryCSSPropertyHandlerProvider.java,a2640d1201606e3869e4c7841d17c2b1a42676bf,"Improve readability of RegistryCSSPropertyHandlerProvider
 
 No functional change, only reformatting and grouped code into a new
 internal method to make it readable
 
 Change-Id: Ibd89112b9b0c26c9e24a0bb4a78e68759297231a
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 CTabRendering.java,bundles/org.eclipse.e4.ui.workbench.renderers.swt/src/org/eclipse/e4/ui/workbench/renderers/swt/CTabRendering.java,bdcfc35e99c20ba83b19a26a3de7ba36457ff76c,"Bug 498737 - Improve readability of CTabRendering
 
 Remove unused parameters passed to default methods, reformat statements
@@ -5194,34 +5194,34 @@ to not take multiple lines when not needed, fix different indentation in
 same block and etc.
 
 Change-Id: I7af05f0e300ab0ab01fa98c6861a21de248c064e
-Signed-off-by: Alexander Kurtakov <akurtako@redhat.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Alexander Kurtakov <akurtako@redhat.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 SelectPerspectiveDialog.java,bundles/org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/dialogs/SelectPerspectiveDialog.java,c36dfbcfc2653b228c7c6935c6d980c876b05ed5,"Minor - Align the code for better readability in SelectPerspectiveDialog
 
 
 Change-Id: I7b8869166a3cfd0b699a8ac02dff2bff1f45d1b9
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 E4Application.java,bundles/org.eclipse.e4.ui.workbench.swt/src/org/eclipse/e4/ui/internal/workbench/swt/E4Application.java,d1c30c964b48b853a085e04dae69c4d6298a4579,"Bug 476541 - Improve readability of E4Application
 
 Change-Id: Ic4b2f1d830d61ea9a97854a50132c400205312a3
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 CustomizePerspectiveDialog.java,bundles/org.eclipse.ui.workbench/Eclipse UI/org/eclipse/ui/internal/dialogs/CustomizePerspectiveDialog.java,d3e936ddbc328e0327a990bd09724ff3efc6be6e,"Bug 431992- [Perspectives] Clean up CustomizePerspectiveDialog dialog
 
 Improves readability of the creation of Toolbar entries, felt like
 everything was called, create ToolbarEntries
 
 Change-Id: I459e25af85a5160ec6a316a24e2a779ca58a5217
-Signed-off-by: Lars Vogel <Lars.Vogel@gmail.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@gmail.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 AbstractCSSSWTEngineImpl.java,bundles/org.eclipse.e4.ui.css.swt/src/org/eclipse/e4/ui/css/swt/engine/AbstractCSSSWTEngineImpl.java,d98f45acd649514531c8caa2144bed6d04168fce,"Minor - AbstractCSSSWTEngineImpl improve readability and deletion of
 dead comment
 
 Change-Id: If25ceebf96c4ed98164dbc5d9718afd60218dc98
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 OpenWorkspaceAction.java,bundles/org.eclipse.ui.ide/src/org/eclipse/ui/internal/ide/actions/OpenWorkspaceAction.java,e1c3f9bb1e3c9b9a9f03c1f9d6bd12ac95ef9d21,"Minor - Improve readability of OpenWorkspaceAction
 
 Also removes a dead //TODO for > 10 years
 
 Change-Id: Ie46598acb1fee612ae687a95ecbb3cbcd0f718cf
-Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse/eclipse.platform.ui
+Signed-off-by: Lars Vogel <Lars.Vogel@vogella.com>",https://api.github.com/repos/eclipse-platform/eclipse.platform.ui
 EventSenderImpl.java,client/src/main/java/org/eclipse/hono/client/impl/EventSenderImpl.java,0712b2ea92b0009e8cb1606c8dbc345646e67149,Improve readability of code.,https://api.github.com/repos/eclipse/hono
 TelemetrySenderImpl.java,client/src/main/java/org/eclipse/hono/client/impl/TelemetrySenderImpl.java,0712b2ea92b0009e8cb1606c8dbc345646e67149,Improve readability of code.,https://api.github.com/repos/eclipse/hono
 HonoClientImpl.java,client/src/main/java/org/eclipse/hono/client/impl/HonoClientImpl.java,4ff8c6b4a493b0fe3e5db0108dba66bec4f9f056,"Improve readability of code.
@@ -5263,27 +5263,27 @@ BatchRefUpdateTest.java,org.eclipse.jgit.test/tst/org/eclipse/jgit/internal/stor
 * Static import ReceiveCommand.Type constants.
 * Add blank lines to separate repo setup, update execution, and asserts.
 
-Change-Id: Ic3717f94331abfc7ae3e92065f3fe32026bf7cea",https://api.github.com/repos/eclipse/jgit
+Change-Id: Ic3717f94331abfc7ae3e92065f3fe32026bf7cea",https://api.github.com/repos/eclipse-jgit/jgit
 PackWriterTest.java,org.eclipse.jgit.test/tst/org/eclipse/jgit/internal/storage/file/PackWriterTest.java,9843489cb88d7c7cee09ced484c2fbc84ec1e3ef,"PackWriterTest: Improve readability
 
 Add wants() and haves() static utility functions to improve readability.
 
 
 Change-Id: I4d44e17a9af97c0203e2ebe112eabb1f67d272a6
-Signed-off-by: Terry Parker <tparker@google.com>",https://api.github.com/repos/eclipse/jgit
+Signed-off-by: Terry Parker <tparker@google.com>",https://api.github.com/repos/eclipse-jgit/jgit
 PackWriterBitmapPreparer.java,org.eclipse.jgit/src/org/eclipse/jgit/internal/storage/pack/PackWriterBitmapPreparer.java,c87b77bc310e6dc8c6b414e4c9c97f0a4429566e,"Pack bitmaps: improve readability
 
 Add comments and rename variables in PackWriterBitmapPreparer to improve
 readability.
 
 Change-Id: I49e7a1c35307298f7bc32ebfc46ab08e94290125
-Signed-off-by: Terry Parker <tparker@google.com>",https://api.github.com/repos/eclipse/jgit
+Signed-off-by: Terry Parker <tparker@google.com>",https://api.github.com/repos/eclipse-jgit/jgit
 ShowDirCache.java,org.eclipse.jgit.pgm/src/org/eclipse/jgit/pgm/debug/ShowDirCache.java,d353107729b698da6dc85858d911c3577fb4ea6d,"Improve readability of timestamps shown by debug-show-dir-cache
 
 The old format is hard to read.
 
 Change-Id: I27f3a7dbd92b26256993d27d5223b743fef70902
-Signed-off-by: Matthias Sohn <matthias.sohn@sap.com>",https://api.github.com/repos/eclipse/jgit
+Signed-off-by: Matthias Sohn <matthias.sohn@sap.com>",https://api.github.com/repos/eclipse-jgit/jgit
 rc018.java,test/cmdLineTests/jvmtitests/src/com/ibm/jvmti/tests/redefineClasses/rc018.java,1e95cf62bc28f8be5017180c2838e4543a690b25,"WIP: Atomic-free JNI work
 
 - refactor code to make it more readable, less invasive

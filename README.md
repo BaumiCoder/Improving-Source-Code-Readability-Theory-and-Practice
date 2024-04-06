@@ -55,8 +55,6 @@ Actual known (in March 2024):
 | Reason                                                                                 | Affected rows |
 |----------------------------------------------------------------------------------------|---------------|
 | [Repository](https://github.com/Dexels/dexels.repository) is not available anymore.    | 410 to 456    |
-| [Repository](https://github.com/eclipse/eclipse.platform.ui) is not available anymore. | 1850 to 1866  |
-| [Repository](https://github.com/eclipse/jgit) is not available anymore.                | 1877 to 1880  |
 
 Affected rows produce appropriated message on `stderr` like this:
 
